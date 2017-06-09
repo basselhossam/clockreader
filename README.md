@@ -26,6 +26,9 @@ there is two modes of operations:
 ## Algorithm
 
 1- we read the image.
+
 2- we try to get the center of the clock by using sobel edge detection assuming that the clock is the biggest shape in the image.
+
 3- we apply hough line to get lines of the arrows and we apply it multiple times for accuracy.
+
 4- after we get the lines we use the angle between lines to determine the clock value.
